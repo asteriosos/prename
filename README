@@ -10,3 +10,6 @@ Installation
 ------------
 
 sudo make install
+
+or you can use the gpg signed rpm package from the suse_rpm subdir.
+
