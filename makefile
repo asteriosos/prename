@@ -1,8 +1,8 @@
 install:
-	cp rename /usr/local/bin/
+	cp rename /usr/local/bin/prename
 	-mkdir -p /usr/local/share/man/man1
-	cp rename.1 /usr/local/share/man/man1/
-	gzip /usr/local/share/man/man1/rename.1 
+	cp prename.1 /usr/local/share/man/man1/
+	gzip /usr/local/share/man/man1/prename.1 
 uninstall:
-	rm /usr/local/bin/rename
-	rm /usr/local/share/man/man1/rename.1.gz
+	rm /usr/local/bin/prename
+	rm /usr/local/share/man/man1/prename.1.gz
