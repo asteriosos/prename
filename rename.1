@@ -139,13 +139,13 @@
 .if n .ad l
 .nh
 .SH "NAME"
-rename \- renames multiple files
+prename \- renames multiple files
 .SH "SYNOPSIS"
 .IX Header "SYNOPSIS"
-\&\fBrename\fR [\ \fB\-v\fR\ ] [\ \fB\-n\fR\ ] [\ \fB\-f\fR\ ] \fIperlexpr\fR [\ \fIfiles\fR\ ]
+\&\fBprename\fR [\ \fB\-v\fR\ ] [\ \fB\-n\fR\ ] [\ \fB\-f\fR\ ] \fIperlexpr\fR [\ \fIfiles\fR\ ]
 .SH "DESCRIPTION"
 .IX Header "DESCRIPTION"
-\&\f(CW\*(C`rename\*(C'\fR
+\&\f(CW\*(C`prename\*(C'\fR
 renames the filenames supplied according to the rule specified as the
 first argument.
 The \fIperlexpr\fR 
@@ -160,13 +160,13 @@ For example, to rename all files matching \f(CW\*(C`*.bak\*(C'\fR to strip the e
 you might say
 .PP
 .Vb 1
-\&        rename \*(Aqs/\e.bak$//\*(Aq *.bak
+\&        prename \*(Aqs/\e.bak$//\*(Aq *.bak
 .Ve
 .PP
 To translate uppercase names to lower, you'd use
 .PP
 .Vb 1
-\&        rename \*(Aqy/A\-Z/a\-z/\*(Aq *
+\&        prename \*(Aqy/A\-Z/a\-z/\*(Aq *
 .Ve
 .SH "OPTIONS"
 .IX Header "OPTIONS"
