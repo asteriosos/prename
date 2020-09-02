@@ -6,6 +6,9 @@ Removes confusion about the util-linux vs Perl versions of rename.
 Installs into /usr/local/bin/prename, so you can use booth.
 Systems rename and prename.
 
+example: prename "s/ /_/g" *
+renames all files without a blank in it.
+
 Installation
 ------------
 
